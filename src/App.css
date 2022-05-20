@@ -32,7 +32,46 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.navbar,
+.logo,
+.ThemeToggler {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  height: 15vh;
+}
+
+.logo {
+  height: 85vh;
+  flex-direction: column;
+}
+
+.HeroSection {
+  padding: 0vh 15vw;
+}
+
+.P {
+  font-size: 10px;
+}
+
+.ThemeToggler {
+  margin-left: auto;
+  border: 1px solid #39FF14;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.Icon {
+  font-size: 20px;
+  margin-top: 5px;
+  margin-right: 5px;
 }
